@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="Login_container"
+            stylesheets="@../../../../../Styles/Login.css" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jmc.sekoiacarepath.Controllers.LoginController">
+   <VBox prefHeight="400.0" prefWidth="200.0"
+         AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <styleClass>
+         <String fx:value="Login_logo_container"/>
+      </styleClass>
+      <Text fill="WHITE" layoutX="90.0" layoutY="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KMD">
+         <font>
+            <Font name="System Bold" size="28.0"/>
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sekoia">
+         <font>
+            <Font name="Calibri" size="7.0"/>
+         </font>
+      </Text>
+      <Text fill="#7ea886" strokeType="OUTSIDE" strokeWidth="0.0" text="CarePath">
+         <font>
+            <Font size="15.0"/>
+         </font>
+         <styleClass>
+            <String fx:value="Login_logo_container"/>
+         </styleClass>
+      </Text>
+   </VBox>
+</AnchorPane>
